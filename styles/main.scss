@@ -1,0 +1,24 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+body {
+  background-color: #f5f5f1;
+}
+
+.cork-maps-list {
+  @include outer-container(728px);
+
+}
+
+.grid {
+  @include span-columns(4);
+  @include omega(3n);
+  border: solid white 1px;
+  background-color: white;
+  padding-top: 35px;
+
+}
+
+.price-class {
+  color: green;
+}
